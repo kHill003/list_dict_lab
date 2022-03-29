@@ -8,7 +8,8 @@ for number in numbers:
         print(number)
 
 # 2. Print the difference between the largest and smallest value:
-
+numbers.sort()
+print ("sorted numbers are", numbers)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
