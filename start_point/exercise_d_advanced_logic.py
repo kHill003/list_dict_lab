@@ -1,5 +1,8 @@
 # For the following list of numbers:
 
+from logging import setLogRecordFactory
+
+
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
@@ -10,6 +13,15 @@ for number in numbers:
 # 2. Print the difference between the largest and smallest value:
 numbers.sort()
 print ("sorted numbers are", numbers)
+biggest = numbers[len(numbers)-1]
+smallest = numbers[0]
+answer = biggest - smallest
+print (biggest)
+print (smallest)
+print (answer)
+
+
+
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
